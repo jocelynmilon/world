@@ -1,0 +1,15 @@
+<div class="contact">
+  <form [formGroup]="form"(ngSubmit)="createMessage()">
+    
+    <input type="text" formControlName="noms" placeholder="nom" class="input-lg"><br>
+    <input type="email" formControlName="email" placeholder="email" class="formulaire"><br>
+    <textarea  formControlName="message" placeholder="message" class="formulaire" name="" id="" cols="30" rows="10"></textarea><br>
+    <button class="valider" >Ajouter un  message</button>
+  </form>
+</div>
+<br>
+<br>
+<div class="afficher">
+  {{form.value | json }}
+</div>
+

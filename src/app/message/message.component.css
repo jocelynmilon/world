@@ -1,0 +1,10 @@
+.mess{
+    width: 100%;
+    margin-top: 6rem;
+    margin-left: 9rem;
+}
+.message {
+    color: blue;
+    font-size: 2rem;
+    font-family: fantasy;
+}

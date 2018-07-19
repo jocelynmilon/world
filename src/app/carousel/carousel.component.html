@@ -1,0 +1,32 @@
+<div class="photo">
+<ngb-carousel *ngIf="images">
+    <ng-template ngbSlide>
+      <img [src]="images[0]" alt="Random first slide">
+      <div class="carousel-caption">
+        <h3>les 23 champions du monde</h3>
+        <p>Equipe de france</p>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <img [src]="images[1]" alt="Random second slide">
+      <div class="carousel-caption">
+        <h3>Le 3eme match des poules</h3>
+        <p>France 0 Dannemark 0</p>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <img [src]="images[2]"  alt="Random third slide">
+      <div class="carousel-caption">
+        <h3> l'equipe de la Demie-finale</h3>
+        <p>France 1 Belgique 0</p>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <img [src]="images[3]" alt="Random fourth slide">
+      <div class="carousel-caption">
+        <h3>Champion du monde</h3>
+        <p>France 4 Croatie 2</p>
+      </div>
+    </ng-template>
+  </ngb-carousel>
+</div>

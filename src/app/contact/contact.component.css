@@ -1,0 +1,27 @@
+.contact {
+    width: 100%;
+    margin-top: 4rem;
+    margin-left: 12rem;
+}
+input, button, select, optgroup, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    width: 31rem;
+    height: 3rem;
+    border-radius: 10px;
+    border-color: blue;
+    background-color: #0000ff0f;
+    margin-bottom: 2rem;
+}
+.afficher {
+    text-align: center;
+    color: blue;
+    font-size: 2rem;
+}
+.valider {
+    background-color: green;
+    color: #fff;
+    font-size: 1.5rem;
+}

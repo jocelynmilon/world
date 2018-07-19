@@ -1,0 +1,16 @@
+.joueur {
+    width: 100%;
+    margin-top: 4rem;
+    margin-left: 2rem;
+     
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+    margin-bottom: 2rem;
+}
+.titre {
+    color: red;
+    font-family: fantasy;
+    text-align: center;
+}

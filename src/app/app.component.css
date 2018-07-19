@@ -1,0 +1,9 @@
+.page {
+    width: 100%;
+}
+
+img {
+    vertical-align: middle !important;
+    border-style: none !important;
+    width: 100%;
+}
